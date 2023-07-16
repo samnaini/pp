@@ -1,0 +1,2671 @@
+# Copyright (C) 2023 Parcel Panel
+# This file is distributed under the GPL-2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Parcel Panel Order Tracking for WooCommerce 3.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/parcelpanel\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-06-27T14:15:02+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: parcelpanel\n"
+
+#. Plugin Name of the plugin
+msgid "Parcel Panel Order Tracking for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://docs.parcelpanel.com/woocommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "The #1 order tracking app specially designed for WooCommerce, driving customer loyalty and more sales by providing the best post-purchase experience."
+msgstr ""
+
+#. Author of the plugin
+#: includes/ParcelPanel.php:1269
+msgid "Parcel Panel"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.parcelpanel.com"
+msgstr ""
+
+#: includes/Action/AdminAccount.php:26
+msgid "Choose plan"
+msgstr ""
+
+#: includes/Action/AdminAccount.php:27
+msgid "$0 Get 100% OFF Offer Now"
+msgstr ""
+
+#: includes/Action/AdminAccount.php:28
+msgid "Log in Dashboard"
+msgstr ""
+
+#: includes/Action/AdminAccount.php:29
+msgid "Remaining"
+msgstr ""
+
+#: includes/Action/AdminAccount.php:30
+msgid "Total"
+msgstr ""
+
+#: includes/Action/AdminAccount.php:102
+#: includes/Action/AdminSettings.php:233
+#: includes/Action/ShopOrder.php:958
+msgid "Invalid parameter"
+msgstr ""
+
+#: includes/Action/AdminIntegration.php:48
+msgid "App not found"
+msgstr ""
+
+#: includes/Action/AdminIntegration.php:53
+#: includes/Action/AdminSettings.php:171
+#: includes/Action/AdminSettings.php:252
+#: includes/Action/Lang.php:563
+msgid "Saved successfully"
+msgstr ""
+
+#: includes/Action/AdminShipments.php:484
+msgid "Save failed"
+msgstr ""
+
+#: includes/Action/AdminShipments.php:516
+msgid "Nothing to do"
+msgstr ""
+
+#. translators: %s: Number of items.
+#: includes/Action/AdminShipmentsTableList.php:152
+msgid "Showing %s shipment"
+msgid_plural "Showing %s shipments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Action/AdminShipmentsTableList.php:386
+#: includes/Action/Lang.php:891
+msgid "No orders yet"
+msgstr ""
+
+#: includes/Action/AdminShipmentsTableList.php:388
+#: includes/Action/Lang.php:892
+msgid "Try changing the filters or search term"
+msgstr ""
+
+#. translators: %s: human-readable time difference
+#: includes/Action/AdminShipmentsTableList.php:594
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: includes/Action/AdminShipmentsTableList.php:598
+msgctxt "shipments"
+msgid "M j, Y"
+msgstr ""
+
+#: includes/Action/AdminShipmentsTableList.php:690
+#: includes/Action/Lang.php:888
+msgid "Re-sync"
+msgstr ""
+
+#: includes/Action/Email.php:155
+#: includes/Emails/WC_Email_Customer_PP_In_Transit.php:40
+msgid "Your order is in transit"
+msgstr ""
+
+#: includes/Action/Lang.php:559
+msgid "Sync unsuccessfully"
+msgstr ""
+
+#: includes/Action/Lang.php:560
+msgid "The system is syncing your orders and it needs a few minutes."
+msgstr ""
+
+#: includes/Action/Lang.php:562
+msgid "Saved unsuccessfully"
+msgstr ""
+
+#: includes/Action/Lang.php:565
+msgid "Change unsuccessfully"
+msgstr ""
+
+#: includes/Action/Lang.php:566
+msgid "Change successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:568
+msgid "Enabled successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:569
+msgid "Disabled successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:571
+msgid "Export unsuccessfully"
+msgstr ""
+
+#: includes/Action/Lang.php:572
+msgid "Export successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:574
+msgid "Please choose a CSV file"
+msgstr ""
+
+#: includes/Action/Lang.php:575
+msgid "Sorry, this file type is not permitted!"
+msgstr ""
+
+#: includes/Action/Lang.php:576
+msgid "These fields are required to map:"
+msgstr ""
+
+#: includes/Action/Lang.php:577
+#: includes/Action/Lang.php:939
+msgid "Order number"
+msgstr ""
+
+#: includes/Action/Lang.php:578
+#: includes/Action/Lang.php:803
+#: includes/Action/Lang.php:895
+#: includes/Action/Lang.php:940
+#: includes/Action/ShopOrder.php:43
+#: includes/Action/ShopOrder.php:1698
+#: includes/views/tracking-page.php:115
+msgid "Tracking number"
+msgstr ""
+
+#: includes/Action/Lang.php:579
+msgid "Required fields can't be empty."
+msgstr ""
+
+#: includes/Action/Lang.php:580
+msgid "Please enter a valid email."
+msgstr ""
+
+#: includes/Action/Lang.php:581
+msgid "Sent successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:582
+msgid "Sent unsuccessfully"
+msgstr ""
+
+#: includes/Action/Lang.php:583
+msgid "Copied successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:584
+msgid "Copied unsuccessfully"
+msgstr ""
+
+#: includes/Action/Lang.php:591
+msgid "We want to provide the best experience for you 👋"
+msgstr ""
+
+#: includes/Action/Lang.php:592
+msgid "Your feedback means a lot to us! Taking a minute to leave your review will inspire us to keep going."
+msgstr ""
+
+#: includes/Action/Lang.php:593
+msgid "Special offer - Contact us to Free upgrade 🥳"
+msgstr ""
+
+#: includes/Action/Lang.php:594
+msgid "We've so far provided service for over 120,000 Shopify & WooCommerce stores. This is our way of giving back (20 → Unlimited free quota) 🙌"
+msgstr ""
+
+#: includes/Action/Lang.php:595
+msgid "Free upgrade now"
+msgstr ""
+
+#: includes/Action/Lang.php:596
+msgid "Remove ParcelPanel branding for Free 😘"
+msgstr ""
+
+#: includes/Action/Lang.php:597
+#: includes/views/notices/remove-pp-branding-admin.php:8
+msgid "Contact support to remove the branding (worth $49/month) from your tracking page."
+msgstr ""
+
+#: includes/Action/Lang.php:598
+#: includes/Action/Lang.php:651
+#: includes/Action/Lang.php:1039
+#: includes/views/notices/remove-pp-branding-admin.php:9
+msgid "Contact us"
+msgstr ""
+
+#: includes/Action/Lang.php:599
+msgid "Upgrade reminder"
+msgstr ""
+
+#: includes/Action/Lang.php:600
+msgid "Howdy partner, there are only <0> quota available in your account, upgrade to sync & track more orders."
+msgstr ""
+
+#: includes/Action/Lang.php:601
+msgid "Upgrade now"
+msgstr ""
+
+#: includes/Action/Lang.php:602
+#: includes/views/notices/free-sync-orders-admin.php:9
+msgid "Even better - free sync & track your last-30-day orders 🎉"
+msgstr ""
+
+#: includes/Action/Lang.php:603
+msgid "This will help you know how ParcelPanel performs and provide your old customers with a seamless order tracking experience."
+msgstr ""
+
+#: includes/Action/Lang.php:604
+msgid "Completed on <0>"
+msgstr ""
+
+#: includes/Action/Lang.php:605
+#: includes/views/notices/nps-banner-admin.php:8
+msgid "A Quick Word on your ParcelPanel Experience (Only 2 questions ) 🌻"
+msgstr ""
+
+#: includes/Action/Lang.php:606
+msgid "We value your opinion! It is highly appreciated if you could take <0>10 seconds<1> to rate your experience with us by participating in our brief Net Promoter Score (NPS) survey."
+msgstr ""
+
+#: includes/Action/Lang.php:607
+#: includes/views/notices/nps-banner-admin.php:16
+#: includes/views/notices/question-banner-admin.php:9
+msgid "Take the survey →"
+msgstr ""
+
+#: includes/Action/Lang.php:614
+msgid "Dismiss"
+msgstr ""
+
+#: includes/Action/Lang.php:615
+#: includes/Action/Lang.php:661
+#: includes/views/account-page.php:38
+#: includes/views/notices/admin-plugins-feedback.php:96
+#: includes/views/notices/feedback-admin.php:90
+msgid "Cancel"
+msgstr ""
+
+#: includes/Action/Lang.php:616
+msgid "Apply"
+msgstr ""
+
+#: includes/Action/Lang.php:617
+#: includes/Action/Lang.php:963
+#: includes/Action/Lang.php:978
+#: includes/views/shipments-page.php:66
+msgid "Close"
+msgstr ""
+
+#: includes/Action/Lang.php:618
+msgid "Upgrade"
+msgstr ""
+
+#: includes/Action/Lang.php:619
+msgid "Remaining / Total"
+msgstr ""
+
+#: includes/Action/Lang.php:620
+msgid "Note: Remaining means you have <0> available quota."
+msgstr ""
+
+#: includes/Action/Lang.php:621
+#: includes/views/shipments-page.php:34
+msgid "Export"
+msgstr ""
+
+#: includes/Action/Lang.php:622
+msgid "Country"
+msgstr ""
+
+#: includes/Action/Lang.php:623
+#: includes/Action/Lang.php:883
+#: includes/Action/Lang.php:896
+#: includes/Action/Lang.php:941
+#: includes/Action/ShopOrder.php:42
+msgid "Courier"
+msgstr ""
+
+#: includes/Action/Lang.php:624
+msgid "Quantity"
+msgstr ""
+
+#: includes/Action/Lang.php:625
+msgid "Day"
+msgstr ""
+
+#: includes/Action/Lang.php:626
+#: includes/Action/Lang.php:884
+msgid "Destination"
+msgstr ""
+
+#: includes/Action/Lang.php:627
+msgid "Filter"
+msgstr ""
+
+#: includes/Action/Lang.php:629
+msgid "Pending"
+msgstr ""
+
+#: includes/Action/Lang.php:630
+#: includes/Action/Lang.php:825
+#: includes/views/settings-page.php:58
+#: includes/views/tracking-page.php:319
+msgid "In transit"
+msgstr ""
+
+#: includes/Action/Lang.php:631
+#: includes/Action/Lang.php:827
+#: includes/views/settings-page.php:86
+msgid "Delivered"
+msgstr ""
+
+#: includes/Action/Lang.php:632
+#: includes/Action/Lang.php:826
+#: includes/views/settings-page.php:72
+#: includes/views/tracking-page.php:327
+msgid "Out for delivery"
+msgstr ""
+
+#: includes/Action/Lang.php:633
+msgid "Info received"
+msgstr ""
+
+#: includes/Action/Lang.php:634
+#: includes/views/settings-page.php:100
+msgid "Exception"
+msgstr ""
+
+#: includes/Action/Lang.php:635
+#: includes/views/settings-page.php:114
+msgid "Failed attempt"
+msgstr ""
+
+#: includes/Action/Lang.php:636
+msgid "Expired"
+msgstr ""
+
+#: includes/Action/Lang.php:638
+#: includes/views/settings-page.php:223
+msgid "Enabled"
+msgstr ""
+
+#: includes/Action/Lang.php:639
+#: includes/views/settings-page.php:223
+msgid "Disabled"
+msgstr ""
+
+#: includes/Action/Lang.php:640
+#: includes/views/settings-page.php:310
+#: includes/views/settings-page.php:318
+msgid "No couriers yet"
+msgstr ""
+
+#: includes/Action/Lang.php:641
+#: includes/views/settings-page.php:311
+msgid "You have not set up a frequently-used courier"
+msgstr ""
+
+#: includes/Action/Lang.php:643
+#: includes/views/account-page.php:28
+msgid "Need any help?"
+msgstr ""
+
+#: includes/Action/Lang.php:645
+#: includes/views/account-page.php:32
+#: includes/views/notices/admin-plugins-feedback.php:73
+#: includes/views/notices/feedback-admin.php:67
+msgid "Send your feedback"
+msgstr ""
+
+#: includes/Action/Lang.php:646
+#: includes/views/account-page.php:33
+#: includes/views/notices/admin-plugins-feedback.php:85
+#: includes/views/notices/feedback-admin.php:79
+msgid "Please tell us more, we will try the best to get better"
+msgstr ""
+
+#: includes/Action/Lang.php:647
+#: includes/views/account-page.php:34
+msgid "Edit your message here..."
+msgstr ""
+
+#: includes/Action/Lang.php:648
+#: includes/views/account-page.php:35
+#: includes/views/notices/admin-plugins-feedback.php:88
+#: includes/views/notices/feedback-admin.php:82
+msgid "Your contact email"
+msgstr ""
+
+#: includes/Action/Lang.php:649
+#: includes/views/account-page.php:36
+msgid "e.g. parcelpanel100@gmail.com"
+msgstr ""
+
+#: includes/Action/Lang.php:650
+#: includes/views/account-page.php:39
+#: includes/views/notices/admin-plugins-feedback.php:98
+#: includes/views/notices/feedback-admin.php:92
+msgid "Send"
+msgstr ""
+
+#: includes/Action/Lang.php:652
+#: includes/Action/Lang.php:996
+#: includes/views/settings-page.php:146
+#: includes/views/settings-page.php:196
+msgid "View example"
+msgstr ""
+
+#: includes/Action/Lang.php:653
+msgid "Learn more about <0>Parcel Panel<1>"
+msgstr ""
+
+#: includes/Action/Lang.php:654
+msgid "NEW"
+msgstr ""
+
+#: includes/Action/Lang.php:655
+#: includes/Action/Lang.php:819
+msgid "HOT"
+msgstr ""
+
+#: includes/Action/Lang.php:657
+#: includes/Action/Lang.php:750
+msgid "Start Live Chat"
+msgstr ""
+
+#: includes/Action/Lang.php:658
+msgid "When you click the confirm button, we will open our live chat widget, where you can chat with us in real-time to solve your questions, and also potentially collect some personal data."
+msgstr ""
+
+#: includes/Action/Lang.php:659
+msgid "Learn more about our <0>Privacy Policy<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:660
+msgid "Don't want to use live chat? Contact us via email: <0>support@parcelpanel.org<1>"
+msgstr ""
+
+#: includes/Action/Lang.php:662
+msgid "Confirm"
+msgstr ""
+
+#: includes/Action/Lang.php:663
+msgid "<0>Jessie<1> from Parcel Panel"
+msgstr ""
+
+#: includes/Action/Lang.php:664
+msgid "Active"
+msgstr ""
+
+#: includes/Action/Lang.php:665
+msgid "Welcome to ParcelPanel"
+msgstr ""
+
+#: includes/Action/Lang.php:666
+msgid "Hello"
+msgstr ""
+
+#: includes/Action/Lang.php:667
+msgid "We’re so glad you’re here, let us know if you have any questions."
+msgstr ""
+
+#: includes/Action/Lang.php:668
+msgid "Live chat with us"
+msgstr ""
+
+#: includes/Action/Lang.php:669
+msgid "Any questions about orders sync, courier matching or tracking update?"
+msgstr ""
+
+#: includes/Action/Lang.php:671
+msgid "Help"
+msgstr ""
+
+#: includes/Action/Lang.php:672
+msgid "Select a direction."
+msgstr ""
+
+#: includes/Action/Lang.php:673
+msgid "Live Chat Support"
+msgstr ""
+
+#: includes/Action/Lang.php:674
+#: includes/Action/Lang.php:748
+#: includes/views/common/header.php:49
+msgid "Get Email Support"
+msgstr ""
+
+#: includes/Action/Lang.php:675
+#: includes/Action/Lang.php:752
+#: includes/views/common/header.php:41
+msgid "ParcelPanel Help Docs"
+msgstr ""
+
+#: includes/Action/Lang.php:677
+msgid "Special Gift"
+msgstr ""
+
+#: includes/Action/Lang.php:678
+msgid "Free upgrade plan"
+msgstr ""
+
+#: includes/Action/Lang.php:679
+msgid "Offer Will Expire Soon"
+msgstr ""
+
+#: includes/Action/Lang.php:680
+msgid "Free Upgrade Now"
+msgstr ""
+
+#: includes/Action/Lang.php:681
+msgid "<0><1><2>Get<3> <4>unlimited quota worth $999<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:682
+msgid "<0><1><2>The best for<3> <4>dropshipping<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:683
+msgid "<0><1><2>Access to<3> <4>1000+ couriers<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:684
+msgid "<0><1><2>Import widget &<3> <4>CSV import<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:685
+msgid "<0><1><2>Branded<3> <4>tracking page<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:686
+msgid "<0><1><2><3><4>Remove ParcelPanel branding<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:687
+msgid "<0><1><2>Shipping<3> <4>notifications<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:688
+msgid "<0>24/7<1> <2>live chat<3> <4>support<5>"
+msgstr ""
+
+#: includes/Action/Lang.php:695
+msgid "Welcome to Parcel Panel 👋"
+msgstr ""
+
+#: includes/Action/Lang.php:696
+msgid "Welcome!! Get started with ParcelPanel"
+msgstr ""
+
+#: includes/Action/Lang.php:698
+msgid "Add tracking page"
+msgstr ""
+
+#: includes/Action/Lang.php:699
+#: includes/views/home-page.php:27
+msgid "Add tracking page to your storefront"
+msgstr ""
+
+#: includes/Action/Lang.php:700
+msgid "Your branded tracking page is ready, the URL is: <0>, add it to your store menus so your customers can track orders there."
+msgstr ""
+
+#: includes/Action/Lang.php:701
+msgid "Don’t know how to do this? Please follow <0>this instruction<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:702
+#: includes/views/home-page.php:35
+msgid "Preview tracking page"
+msgstr ""
+
+#: includes/Action/Lang.php:703
+#: includes/views/home-page.php:36
+msgid "Looks not so good?"
+msgstr ""
+
+#: includes/Action/Lang.php:705
+#: includes/views/home-page.php:55
+msgid "Dropshipping (optional)"
+msgstr ""
+
+#: includes/Action/Lang.php:706
+#: includes/Action/Lang.php:1004
+msgid "Enable dropshipping mode"
+msgstr ""
+
+#: includes/Action/Lang.php:707
+msgid "ParcelPanel is the best for dropshipping, and supports Aliexpress Standard Shipping, Yunexpress, CJ packet & ePacket (China EMS, China Post), and all commonly used couriers for dropshipping merchants."
+msgstr ""
+
+#: includes/Action/Lang.php:708
+msgid "This feature will allow you to hide all Chinese origins easily, bringing your customers an all-around brand shopping experience. <0>Learn more<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:710
+msgid "How ParcelPanel works"
+msgstr ""
+
+#: includes/Action/Lang.php:711
+msgid "Out-of-box user experience"
+msgstr ""
+
+#: includes/Action/Lang.php:712
+msgid "Tracking numbers are synced from the Orders section of your WooCommerce admin, please don't forget to add them."
+msgstr ""
+
+#: includes/Action/Lang.php:713
+msgid "For new users, ParcelPanel will automatically sync their last-30-day orders for Free."
+msgstr ""
+
+#: includes/Action/Lang.php:714
+msgid "New coming orders will be automatically synced in real time."
+msgstr ""
+
+#: includes/Action/Lang.php:715
+msgid "We fetch the tracking info from couriers' websites based on the tracking numbers."
+msgstr ""
+
+#: includes/Action/Lang.php:717
+msgid "Sync tracking numbers"
+msgstr ""
+
+#: includes/Action/Lang.php:718
+msgid "ParcelPanel will automatically sync tracking numbers from Orders section in your WooCommerce admin once you add there, then track them."
+msgstr ""
+
+#: includes/Action/Lang.php:719
+msgid "Orders section in WooCommerce admin"
+msgstr ""
+
+#: includes/Action/Lang.php:720
+msgid "Additionally, how to get the tracking number, it's not about ParcelPanel. As we know, some merchants fulfilled orders via the 3rd party fulfillment service, some use dropshipping apps, some fulfilled by themselves etc. To know the tracking number of your order, we kindly suggest you asking suppliers or carriers support directly for some help."
+msgstr ""
+
+#: includes/Action/Lang.php:722
+#: includes/views/home-page.php:42
+msgid "Import tracking number of your orders"
+msgstr ""
+
+#: includes/Action/Lang.php:723
+msgid "Import tracking numbers of your orders in bulk with a CSV file, or manually add one by one in the Edit order page."
+msgstr ""
+
+#: includes/Action/Lang.php:724
+#: includes/Action/Lang.php:880
+#: includes/Action/Lang.php:909
+#: includes/Action/Lang.php:973
+#: includes/ParcelPanel.php:1234
+#: includes/views/home-page.php:49
+#: includes/views/shipments-page.php:35
+msgid "Import tracking number"
+msgstr ""
+
+#: includes/Action/Lang.php:725
+msgid "How to import tracking number with a CSV file?"
+msgstr ""
+
+#: includes/Action/Lang.php:727
+msgid "<0><1> exception<2> shipments to check"
+msgstr ""
+
+#: includes/Action/Lang.php:728
+msgid "<0><1> failed attempt<2> shipments to check"
+msgstr ""
+
+#: includes/Action/Lang.php:729
+msgid "<0><1> expired<2> shipments to check"
+msgstr ""
+
+#: includes/Action/Lang.php:731
+msgid "Shipments / Lookups"
+msgstr ""
+
+#: includes/Action/Lang.php:732
+msgid "Delivery performance"
+msgstr ""
+
+#: includes/Action/Lang.php:733
+msgid "Valid tracking"
+msgstr ""
+
+#: includes/Action/Lang.php:734
+msgid "SHIPMENT / LOOKUPS OVER TIME"
+msgstr ""
+
+#: includes/Action/Lang.php:735
+msgid "SHIPMENT STATUS"
+msgstr ""
+
+#: includes/Action/Lang.php:737
+msgid "Delivery days by destinations"
+msgstr ""
+
+#: includes/Action/Lang.php:738
+msgid "Delivery days by couriers"
+msgstr ""
+
+#: includes/Action/Lang.php:740
+msgid "Upcoming features 👏"
+msgstr ""
+
+#: includes/Action/Lang.php:741
+msgid "Integration with WPML..."
+msgstr ""
+
+#: includes/Action/Lang.php:742
+msgid "Will be launched in July"
+msgstr ""
+
+#: includes/Action/Lang.php:743
+msgid "Customized email templates"
+msgstr ""
+
+#: includes/Action/Lang.php:744
+#: includes/Action/Lang.php:746
+msgid "Will be launched in August"
+msgstr ""
+
+#: includes/Action/Lang.php:745
+msgid "Notification / Product Recommendation analysis"
+msgstr ""
+
+#: includes/Action/Lang.php:749
+msgid "Email us and we'll get back to you as soon as possible."
+msgstr ""
+
+#: includes/Action/Lang.php:751
+msgid "Talk to us directly via live chat to get help with your question."
+msgstr ""
+
+#: includes/Action/Lang.php:753
+msgid "Find a solution for your problem with ParcelPanel documents and tutorials."
+msgstr ""
+
+#: includes/Action/Lang.php:755
+msgid "Last <0> days"
+msgstr ""
+
+#: includes/Action/Lang.php:756
+msgid "Day range"
+msgstr ""
+
+#: includes/Action/Lang.php:757
+msgid "Starting Date"
+msgstr ""
+
+#: includes/Action/Lang.php:758
+msgid "Ending Date"
+msgstr ""
+
+#: includes/Action/Lang.php:766
+msgid "Tracking page"
+msgstr ""
+
+#: includes/Action/Lang.php:767
+#: includes/Action/Lang.php:987
+#: includes/views/settings-page.php:22
+#: includes/views/tracking-page.php:21
+#: includes/views/tracking-page.php:591
+msgid "Preview"
+msgstr ""
+
+#: includes/Action/Lang.php:768
+#: includes/Action/Lang.php:967
+#: includes/Action/Lang.php:1017
+#: includes/views/tracking-page.php:24
+#: includes/views/tracking-page.php:594
+msgid "Save changes"
+msgstr ""
+
+#: includes/Action/Lang.php:770
+msgid "Appearance"
+msgstr ""
+
+#: includes/Action/Lang.php:771
+msgid "Languages"
+msgstr ""
+
+#: includes/Action/Lang.php:772
+#: includes/views/tracking-page.php:249
+#: includes/views/tracking-page.php:255
+msgid "Custom shipment status"
+msgstr ""
+
+#: includes/Action/Lang.php:773
+#: includes/views/tracking-page.php:360
+msgid "Estimated delivery time"
+msgstr ""
+
+#: includes/Action/Lang.php:774
+#: includes/views/tracking-page.php:418
+msgid "Product recommendation"
+msgstr ""
+
+#: includes/Action/Lang.php:775
+msgid "Manual translations"
+msgstr ""
+
+#: includes/Action/Lang.php:776
+msgid "CSS & HTML"
+msgstr ""
+
+#: includes/Action/Lang.php:778
+msgid "How to add tracking page to your store? <0>Click here<1>"
+msgstr ""
+
+#: includes/Action/Lang.php:780
+msgid "Style"
+msgstr ""
+
+#: includes/Action/Lang.php:781
+#: includes/views/tracking-page.php:51
+msgid "Theme container width"
+msgstr ""
+
+#: includes/Action/Lang.php:782
+#: includes/views/tracking-page.php:68
+msgid "Progress bar color"
+msgstr ""
+
+#: includes/Action/Lang.php:783
+msgid "Theme mode"
+msgstr ""
+
+#: includes/Action/Lang.php:784
+msgid "Light mode"
+msgstr ""
+
+#: includes/Action/Lang.php:785
+msgid "Choose Light mode if it is dark-colored text on your store theme."
+msgstr ""
+
+#: includes/Action/Lang.php:786
+msgid "Dark mode"
+msgstr ""
+
+#: includes/Action/Lang.php:787
+msgid "Choose Dark mode if it is light-colored text on your store theme."
+msgstr ""
+
+#: includes/Action/Lang.php:788
+msgid "Order lookup widget"
+msgstr ""
+
+#: includes/Action/Lang.php:789
+msgid "Lookup options"
+msgstr ""
+
+#: includes/Action/Lang.php:790
+msgid "By order number and email"
+msgstr ""
+
+#: includes/Action/Lang.php:791
+msgid "By tracking number"
+msgstr ""
+
+#: includes/Action/Lang.php:792
+msgid "ParcelPanel branding"
+msgstr ""
+
+#: includes/Action/Lang.php:793
+msgid "Remove \"Powered by ParcelPanel\""
+msgstr ""
+
+#: includes/Action/Lang.php:794
+msgid "to remove ParcelPanel branding for Free 😘"
+msgstr ""
+
+#: includes/Action/Lang.php:795
+msgid "Additional text"
+msgstr ""
+
+#: includes/Action/Lang.php:796
+msgid "Text above the order lookup widget"
+msgstr ""
+
+#: includes/Action/Lang.php:797
+#: includes/views/tracking-page.php:474
+msgid "e.g. Curious about where your package is? Click the button to track!"
+msgstr ""
+
+#: includes/Action/Lang.php:798
+msgid "Text below the order lookup widget"
+msgstr ""
+
+#: includes/Action/Lang.php:799
+#: includes/views/tracking-page.php:475
+msgid "e.g. Any questions or concerns? Please feel free to contact us!"
+msgstr ""
+
+#: includes/Action/Lang.php:800
+msgid "Tracking results"
+msgstr ""
+
+#: includes/Action/Lang.php:801
+msgid "Shipment display options"
+msgstr ""
+
+#: includes/Action/Lang.php:802
+msgid "Carrier name and logo"
+msgstr ""
+
+#: includes/Action/Lang.php:804
+msgid "Product info"
+msgstr ""
+
+#: includes/Action/Lang.php:805
+msgid "Tracking details"
+msgstr ""
+
+#: includes/Action/Lang.php:806
+#: includes/views/tracking-page.php:147
+msgid "Google translate widget"
+msgstr ""
+
+#: includes/Action/Lang.php:807
+#: includes/views/tracking-page.php:157
+msgid "Map coordinates"
+msgstr ""
+
+#: includes/Action/Lang.php:808
+msgid "Show map on your tracking page"
+msgstr ""
+
+#: includes/Action/Lang.php:809
+msgid "Current location"
+msgstr ""
+
+#: includes/Action/Lang.php:810
+msgid "Destination address"
+msgstr ""
+
+#: includes/Action/Lang.php:811
+#: includes/views/tracking-page.php:175
+msgid "Hide keywords"
+msgstr ""
+
+#: includes/Action/Lang.php:812
+#: includes/views/tracking-page.php:178
+msgid "e.g. China,Aliexpress,Chinese cities. Separate with comma."
+msgstr ""
+
+#: includes/Action/Lang.php:813
+#: includes/views/tracking-page.php:485
+msgid "Date and time format"
+msgstr ""
+
+#: includes/Action/Lang.php:814
+msgid "Date format"
+msgstr ""
+
+#: includes/Action/Lang.php:815
+msgid "Time format"
+msgstr ""
+
+#: includes/Action/Lang.php:817
+msgid "Theme language"
+msgstr ""
+
+#: includes/Action/Lang.php:820
+msgid "Add custom status (up to 3) with time interval and description, to timely inform customers about the progress of their orders before you fulfill them. <0>Learn more<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:821
+msgid "Add custom shipment status"
+msgstr ""
+
+#: includes/Action/Lang.php:822
+#: includes/views/tracking-page.php:274
+msgid "Create additional steps to inform customers of your process prior to shipping"
+msgstr ""
+
+#: includes/Action/Lang.php:823
+#: includes/views/tracking-page.php:270
+msgid "Ordered"
+msgstr ""
+
+#: includes/Action/Lang.php:824
+#: includes/views/tracking-page.php:311
+msgid "Order ready"
+msgstr ""
+
+#: includes/Action/Lang.php:828
+#: includes/views/tracking-page.php:342
+msgid "Custom tracking info"
+msgstr ""
+
+#: includes/Action/Lang.php:829
+#: includes/views/tracking-page.php:343
+msgid "Add one custom tracking info with time interval to reduce customer anxiety when the package was stuck in shipping, and it will be shown if the tracking info hasn't updated for the days you set."
+msgstr ""
+
+#: includes/Action/Lang.php:830
+msgid "Day(s) since last tracking info"
+msgstr ""
+
+#: includes/Action/Lang.php:831
+msgid "eg. 7"
+msgstr ""
+
+#: includes/Action/Lang.php:832
+msgid "e.g. In Transit to Next Facility"
+msgstr ""
+
+#: includes/Action/Lang.php:834
+msgid "Set an estimated time period that will be displayed on your tracking page, to show your customers when they will receive their orders. <0>Learn more<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:835
+#: includes/views/tracking-page.php:370
+#: includes/views/tracking-page.php:434
+msgid "Enable this feature"
+msgstr ""
+
+#: includes/Action/Lang.php:836
+msgid "Calculate from"
+msgstr ""
+
+#: includes/Action/Lang.php:837
+msgid "Order created time"
+msgstr ""
+
+#: includes/Action/Lang.php:838
+msgid "Order shipped time"
+msgstr ""
+
+#: includes/Action/Lang.php:839
+msgid "Estimated delivery time: <0> - <1>(d)"
+msgstr ""
+
+#: includes/Action/Lang.php:840
+msgid "Advanced settings based on destinations"
+msgstr ""
+
+#: includes/Action/Lang.php:841
+msgid "Shipping to"
+msgstr ""
+
+#: includes/Action/Lang.php:842
+#: includes/views/tracking-page.php:405
+#: includes/views/tracking-page.php:543
+msgid "Add another"
+msgstr ""
+
+#: includes/Action/Lang.php:844
+#: includes/views/tracking-page.php:423
+msgid "Turn your tracking page into a marketing channel to make more sales."
+msgstr ""
+
+#: includes/Action/Lang.php:845
+msgid "<0>Add categories<1> in your WordPress Products section to recommend. By default the recommendations are based on the customer’s order items, you can also select a category to recommend. <2>Learn more.<3>"
+msgstr ""
+
+#: includes/Action/Lang.php:846
+#: includes/views/tracking-page.php:438
+msgid "Display at/on the"
+msgstr ""
+
+#: includes/Action/Lang.php:847
+msgid "Top"
+msgstr ""
+
+#: includes/Action/Lang.php:848
+msgid "Right"
+msgstr ""
+
+#: includes/Action/Lang.php:849
+msgid "Bottom"
+msgstr ""
+
+#: includes/Action/Lang.php:850
+#: includes/views/tracking-page.php:448
+msgid "Advanced settings based on a category"
+msgstr ""
+
+#: includes/Action/Lang.php:851
+#: includes/views/tracking-page.php:453
+msgid "Select a category"
+msgstr ""
+
+#: includes/Action/Lang.php:852
+msgid "Category"
+msgstr ""
+
+#: includes/Action/Lang.php:854
+#: includes/views/tracking-page.php:511
+msgid "Here you can manually translate the tracking detailed info by yourself."
+msgstr ""
+
+#: includes/Action/Lang.php:855
+#: includes/views/tracking-page.php:512
+msgid "Note: this feature distinguishes the strings based on Space, please don't forget the comma and period when you do the translation."
+msgstr ""
+
+#: includes/Action/Lang.php:856
+#: includes/views/tracking-page.php:515
+msgid "Tracking info (before translation)"
+msgstr ""
+
+#: includes/Action/Lang.php:857
+#: includes/views/tracking-page.php:518
+msgid "Tracking info (after translation)"
+msgstr ""
+
+#: includes/Action/Lang.php:858
+msgid "e.g. Shanghai,CN"
+msgstr ""
+
+#: includes/Action/Lang.php:859
+msgid "Sorting Center"
+msgstr ""
+
+#: includes/Action/Lang.php:861
+#: includes/views/tracking-page.php:556
+msgid "CSS"
+msgstr ""
+
+#: includes/Action/Lang.php:862
+msgid "contact us"
+msgstr ""
+
+#: includes/Action/Lang.php:863
+msgid "View the CSS codes here you used to do the custom change of your tracking page, if you would like to change codes, please"
+msgstr ""
+
+#: includes/Action/Lang.php:864
+msgid "or follow <0>this instruction<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:865
+#: includes/views/tracking-page.php:569
+msgid "HTML top of page"
+msgstr ""
+
+#: includes/Action/Lang.php:866
+#: includes/views/tracking-page.php:577
+msgid "HTML bottom of page"
+msgstr ""
+
+#: includes/Action/Lang.php:873
+#: includes/ParcelPanel.php:1018
+#: includes/views/shipments-page.php:26
+msgid "Shipments"
+msgstr ""
+
+#: includes/Action/Lang.php:874
+msgid "Columns"
+msgstr ""
+
+#: includes/Action/Lang.php:875
+msgid "Pagination"
+msgstr ""
+
+#: includes/Action/Lang.php:876
+msgid "Number of items per page:"
+msgstr ""
+
+#: includes/Action/Lang.php:877
+msgid "Screen Options"
+msgstr ""
+
+#: includes/Action/Lang.php:879
+msgid "All"
+msgstr ""
+
+#: includes/Action/Lang.php:881
+msgid "Filter order number or Tracking number"
+msgstr ""
+
+#: includes/Action/Lang.php:882
+msgid "Filter by date"
+msgstr ""
+
+#: includes/Action/Lang.php:885
+msgid "Showing <0> shipments"
+msgstr ""
+
+#: includes/Action/Lang.php:886
+msgid "of <0>"
+msgstr ""
+
+#: includes/Action/Lang.php:887
+msgid "Select sync time"
+msgstr ""
+
+#: includes/Action/Lang.php:889
+msgid "Why are my orders on black Pending status? <0>Click here<1>"
+msgstr ""
+
+#: includes/Action/Lang.php:890
+msgid "No date yet"
+msgstr ""
+
+#: includes/Action/Lang.php:894
+msgid "Order"
+msgstr ""
+
+#: includes/Action/Lang.php:897
+msgid "Last check point"
+msgstr ""
+
+#: includes/Action/Lang.php:898
+msgid "Transit"
+msgstr ""
+
+#: includes/Action/Lang.php:899
+msgid "Order date"
+msgstr ""
+
+#: includes/Action/Lang.php:900
+#: includes/Action/ShopOrder.php:1699
+msgid "Shipment status"
+msgstr ""
+
+#: includes/Action/Lang.php:902
+#: includes/views/shipments-page.php:67
+msgid "Export shipments"
+msgstr ""
+
+#: includes/Action/Lang.php:903
+msgid "<0> shipments data will be exported a CSV table,"
+msgstr ""
+
+#: includes/Action/Lang.php:904
+msgid "Learn more about <0>CSV table headers<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:905
+#: includes/views/shipments-page.php:58
+msgid "Exporting:"
+msgstr ""
+
+#: includes/Action/Lang.php:906
+#: includes/Action/Lang.php:949
+#: includes/views/shipments-page.php:63
+msgid "Please DO NOT close or refresh this page before it was completed."
+msgstr ""
+
+#: includes/Action/Lang.php:908
+msgid "back"
+msgstr ""
+
+#: includes/Action/Lang.php:910
+msgid "Upload CSV file"
+msgstr ""
+
+#: includes/Action/Lang.php:911
+msgid "Column mapping"
+msgstr ""
+
+#: includes/Action/Lang.php:912
+#: includes/Action/Lang.php:935
+#: includes/Action/Lang.php:977
+msgid "Import"
+msgstr ""
+
+#: includes/Action/Lang.php:913
+msgid "Done!"
+msgstr ""
+
+#: includes/Action/Lang.php:914
+msgid "Select CSV file to import"
+msgstr ""
+
+#: includes/Action/Lang.php:915
+msgid "Your CSV file should have following columns:"
+msgstr ""
+
+#: includes/Action/Lang.php:916
+msgid "<0>Required:<1> Order number, Tracking number"
+msgstr ""
+
+#: includes/Action/Lang.php:917
+msgid "<0>Optional:<1> Courier, SKU, Qty, Date shipped, Mark order as Completed"
+msgstr ""
+
+#: includes/Action/Lang.php:918
+msgid "Note:"
+msgstr ""
+
+#: includes/Action/Lang.php:919
+msgid "Product sku and quantity are required if you need to ship the items in one order into multiple packages. <0>Learn more<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:920
+msgid "If the total quantity shipped exceeds the total quantity of items in an order, the system will automatically adjust to the maximum shippable quantity of the items."
+msgstr ""
+
+#: includes/Action/Lang.php:921
+msgid "Choose a local file"
+msgstr ""
+
+#: includes/Action/Lang.php:922
+msgid "No file chosen"
+msgstr ""
+
+#: includes/Action/Lang.php:923
+msgid "Choose File"
+msgstr ""
+
+#: includes/Action/Lang.php:924
+msgid "Mapping preferences"
+msgstr ""
+
+#: includes/Action/Lang.php:925
+msgid "Enable this feature to save previous column mapping settings automatically"
+msgstr ""
+
+#: includes/Action/Lang.php:926
+msgid "CSV Delimiter"
+msgstr ""
+
+#: includes/Action/Lang.php:927
+msgid "This sets the separator of your CSV files to separates the data in your file into distinct fields"
+msgstr ""
+
+#: includes/Action/Lang.php:928
+msgid "Hide advanced options"
+msgstr ""
+
+#: includes/Action/Lang.php:929
+msgid "Show advanced options"
+msgstr ""
+
+#: includes/Action/Lang.php:930
+msgid "Continue"
+msgstr ""
+
+#: includes/Action/Lang.php:931
+msgid "Map CSV fields to orders"
+msgstr ""
+
+#: includes/Action/Lang.php:932
+msgid "Select fields from your CSV file to map against orders fields."
+msgstr ""
+
+#: includes/Action/Lang.php:933
+msgid "Column name"
+msgstr ""
+
+#: includes/Action/Lang.php:934
+msgid "Map to field"
+msgstr ""
+
+#: includes/Action/Lang.php:936
+msgid "Select a column title"
+msgstr ""
+
+#: includes/Action/Lang.php:937
+msgid " (*Required)"
+msgstr ""
+
+#: includes/Action/Lang.php:938
+msgid " (Optional)"
+msgstr ""
+
+#: includes/Action/Lang.php:942
+msgid "SKU"
+msgstr ""
+
+#: includes/Action/Lang.php:943
+msgid "Qty"
+msgstr ""
+
+#: includes/Action/Lang.php:944
+#: includes/Action/ShopOrder.php:45
+msgid "Date shipped"
+msgstr ""
+
+#: includes/Action/Lang.php:945
+msgid "Mark order as Completed"
+msgstr ""
+
+#: includes/Action/Lang.php:946
+msgid "Importing"
+msgstr ""
+
+#: includes/Action/Lang.php:947
+msgid "Your orders are now being imported…"
+msgstr ""
+
+#: includes/Action/Lang.php:948
+msgid "Uploading:"
+msgstr ""
+
+#: includes/Action/Lang.php:950
+msgid "Import Completed"
+msgstr ""
+
+#: includes/Action/Lang.php:951
+msgid "<0> tracking numbers imported successfully"
+msgstr ""
+
+#: includes/Action/Lang.php:952
+msgid "<0> tracking numbers imported failed,"
+msgstr ""
+
+#: includes/Action/Lang.php:953
+msgid "view details"
+msgstr ""
+
+#: includes/Action/Lang.php:954
+msgid "View shipments"
+msgstr ""
+
+#: includes/Action/Lang.php:955
+msgid "Upload again"
+msgstr ""
+
+#: includes/Action/Lang.php:956
+msgid "Import records"
+msgstr ""
+
+#: includes/Action/Lang.php:957
+msgid "View details"
+msgstr ""
+
+#: includes/Action/Lang.php:958
+msgid "Import file name:"
+msgstr ""
+
+#: includes/Action/Lang.php:959
+msgid "Total tracking numbers:"
+msgstr ""
+
+#: includes/Action/Lang.php:960
+msgid "Succeeded:"
+msgstr ""
+
+#: includes/Action/Lang.php:961
+msgid "Failed:"
+msgstr ""
+
+#: includes/Action/Lang.php:962
+msgid "Details:"
+msgstr ""
+
+#: includes/Action/Lang.php:964
+msgid "<0> Uploaded <1>, <2> tracking numbers, failed to upload <3>,"
+msgstr ""
+
+#: includes/Action/Lang.php:966
+msgid "Manually update status"
+msgstr ""
+
+#: includes/Action/Lang.php:968
+msgid "Updating the status for <0> shipment."
+msgstr ""
+
+#: includes/Action/Lang.php:969
+msgid "Automatic shipment status update"
+msgstr ""
+
+#: includes/Action/Lang.php:971
+msgid "You can also copy or download a sample template to import tracking numbers."
+msgstr ""
+
+#: includes/Action/Lang.php:972
+msgid "View instruction"
+msgstr ""
+
+#: includes/Action/Lang.php:974
+msgid "Step 1: Copy the <0>sample template<1> on Google Sheets (strongly recommend) or download <2>this CSV file<3>."
+msgstr ""
+
+#: includes/Action/Lang.php:975
+msgid "Step 2: Fill in the data following the <0>Import Template Instructions<1>. Tracking number that do not comply with the instructions will not be imported."
+msgstr ""
+
+#: includes/Action/Lang.php:976
+msgid "Step 3: Download the file in a CSV format and upload it."
+msgstr ""
+
+#: includes/Action/Lang.php:985
+#: includes/ParcelPanel.php:1024
+#: includes/views/settings-page.php:16
+msgid "Settings"
+msgstr ""
+
+#: includes/Action/Lang.php:986
+#: includes/views/settings-page.php:21
+msgid "Delivery notifications"
+msgstr ""
+
+#: includes/Action/Lang.php:988
+#: includes/views/settings-page.php:28
+msgid "Add an order tracking section to WooCommerce email notifications"
+msgstr ""
+
+#: includes/Action/Lang.php:989
+#: includes/views/settings-page.php:39
+msgid "Select order status to show the tracking section"
+msgstr ""
+
+#: includes/Action/Lang.php:990
+#: includes/views/settings-page.php:49
+msgid "ParcelPanel shipping email notifications"
+msgstr ""
+
+#: includes/Action/Lang.php:991
+#: includes/views/settings-page.php:53
+msgid "This feature will allow you to send email notifications based on ParcelPanel shipment status."
+msgstr ""
+
+#: includes/Action/Lang.php:992
+#: includes/views/settings-page.php:62
+#: includes/views/settings-page.php:76
+#: includes/views/settings-page.php:90
+#: includes/views/settings-page.php:104
+#: includes/views/settings-page.php:118
+msgid "Manage template"
+msgstr ""
+
+#: includes/Action/Lang.php:993
+#: includes/views/settings-page.php:132
+msgid "Account page tracking"
+msgstr ""
+
+#: includes/Action/Lang.php:994
+#: includes/views/settings-page.php:138
+msgid "Add a track button to orders history page (Actions column)"
+msgstr ""
+
+#: includes/Action/Lang.php:995
+#: includes/views/settings-page.php:146
+msgid "This feature will allow you to add a track button to the orders history page (Actions column) so your customers can track their orders with one click there."
+msgstr ""
+
+#: includes/Action/Lang.php:997
+#: includes/views/settings-page.php:154
+#: includes/views/settings-page.php:204
+msgid "Select order status to show the track button"
+msgstr ""
+
+#: includes/Action/Lang.php:998
+#: includes/views/settings-page.php:166
+msgid "Configuring WooCommerce Orders"
+msgstr ""
+
+#: includes/Action/Lang.php:999
+#: includes/views/settings-page.php:172
+msgid "Rename order status \"Completed\" to \"Shipped\""
+msgstr ""
+
+#: includes/Action/Lang.php:1000
+#: includes/views/settings-page.php:180
+msgid "This feature will allow you to change the order status label name from \"Completed\" to \"Shipped\"."
+msgstr ""
+
+#: includes/Action/Lang.php:1001
+#: includes/views/settings-page.php:188
+msgid "Add a track button to WooCommerce orders (Actions column)"
+msgstr ""
+
+#: includes/Action/Lang.php:1002
+#: includes/views/settings-page.php:196
+msgid "This feature will allow you to add a shortcut button to WooCommerce orders (Actions column), which will make it easier to add tracking information."
+msgstr ""
+
+#: includes/Action/Lang.php:1003
+msgid "Dropshipping mode"
+msgstr ""
+
+#: includes/Action/Lang.php:1005
+msgid "This feature will allow you to hide all Chinese origin to bring your customers an all-around brand shopping experience. <0>Learn more<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:1006
+#: includes/views/settings-page.php:216
+msgid "Courier matching"
+msgstr ""
+
+#: includes/Action/Lang.php:1007
+#: includes/views/settings-page.php:218
+msgid "Enable frequently-used couriers if you exactly know which couriers you are using. If not, please just leave this empty, the system will automatically recognize suitable couriers for you."
+msgstr ""
+
+#: includes/Action/Lang.php:1008
+msgid "Search couriers"
+msgstr ""
+
+#: includes/Action/Lang.php:1009
+msgid "Processing"
+msgstr ""
+
+#: includes/Action/Lang.php:1010
+#: includes/Action/ShopOrder.php:36
+#: includes/ParcelPanel.php:513
+msgid "Shipped"
+msgstr ""
+
+#: includes/Action/Lang.php:1011
+msgid "Completed"
+msgstr ""
+
+#: includes/Action/Lang.php:1012
+#: includes/Action/ShopOrder.php:37
+#: includes/ParcelPanel.php:562
+#: includes/ParcelPanel.php:585
+msgid "Partially Shipped"
+msgstr ""
+
+#: includes/Action/Lang.php:1013
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Action/Lang.php:1014
+msgid "Refunded"
+msgstr ""
+
+#: includes/Action/Lang.php:1015
+msgid "Failed"
+msgstr ""
+
+#: includes/Action/Lang.php:1016
+msgid "Draft"
+msgstr ""
+
+#: includes/Action/Lang.php:1018
+msgid "<0> selected"
+msgstr ""
+
+#: includes/Action/Lang.php:1019
+msgid "Showing <0> of <1> couriers"
+msgstr ""
+
+#: includes/Action/Lang.php:1021
+#: includes/views/settings-page.php:344
+#: includes/views/settings-page.php:349
+msgid "How it works?"
+msgstr ""
+
+#: includes/Action/Lang.php:1022
+#: includes/views/settings-page.php:345
+msgid "After enabled, ParcelPanel will add a track button to the orders history page (Actions column), so your customers can track their orders with one click directed to your store tracking page."
+msgstr ""
+
+#: includes/Action/Lang.php:1023
+#: includes/views/settings-page.php:350
+msgid "After enabled, ParcelPanel will add a track button to orders admin (Actions column), you can add tracking info easily without clicking into order details."
+msgstr ""
+
+#: includes/Action/Lang.php:1030
+#: includes/ParcelPanel.php:1030
+#: includes/views/integration-page.php:12
+msgid "Integration"
+msgstr ""
+
+#: includes/Action/Lang.php:1031
+msgid "Featured"
+msgstr ""
+
+#: includes/Action/Lang.php:1032
+#: includes/views/integration-page.php:17
+msgid "Dropshipping"
+msgstr ""
+
+#: includes/Action/Lang.php:1033
+#: includes/views/integration-page.php:18
+msgid "Custom order number"
+msgstr ""
+
+#: includes/Action/Lang.php:1034
+msgid "Email customizer"
+msgstr ""
+
+#: includes/Action/Lang.php:1035
+#: includes/views/integration-page.php:104
+msgid "Will there be more plugins integrated?"
+msgstr ""
+
+#: includes/Action/Lang.php:1036
+#: includes/views/integration-page.php:106
+msgid "Yes, ParcelPanel will continue to integrate with more plugins to improve the user experience. Stay tuned!"
+msgstr ""
+
+#: includes/Action/Lang.php:1037
+#: includes/views/integration-page.php:111
+msgid "Is it possible to integrate a plugin that I using but is not on your list?"
+msgstr ""
+
+#: includes/Action/Lang.php:1038
+#: includes/views/integration-page.php:113
+msgid "Let us know which plugin you would like us to integrate with."
+msgstr ""
+
+#: includes/Action/Lang.php:1040
+msgid "You do not have to do anything, ParcelPanel works with the below plugins by default.  <0>Learn more<1>."
+msgstr ""
+
+#: includes/Action/Lang.php:1041
+#: includes/views/integration-page.php:59
+msgid "You do not have to do anything, ParcelPanel works with the below plugins by default."
+msgstr ""
+
+#: includes/Action/Lang.php:1042
+msgid "API Key"
+msgstr ""
+
+#: includes/Action/Lang.php:1043
+msgid "Developers can use the ParcelPanel API to effectively manage shipments by creating, viewing, and deleting tracking information. Learn <0>API doc<1> for details."
+msgstr ""
+
+#: includes/Action/Lang.php:1044
+msgid "Your API Key"
+msgstr ""
+
+#: includes/Action/Lang.php:1045
+msgid "Show"
+msgstr ""
+
+#: includes/Action/Lang.php:1046
+msgid "Hide"
+msgstr ""
+
+#: includes/Action/Lang.php:1047
+msgid "Copy"
+msgstr ""
+
+#: includes/Action/Lang.php:1054
+#: includes/views/account-page.php:43
+msgid "Account"
+msgstr ""
+
+#: includes/Action/Lang.php:1055
+msgid "Account info"
+msgstr ""
+
+#: includes/Action/Lang.php:1056
+#: includes/views/account-page.php:137
+msgid "Current plan"
+msgstr ""
+
+#: includes/Action/Lang.php:1057
+msgid "Quota limit"
+msgstr ""
+
+#: includes/Action/Lang.php:1058
+msgid "Next quota reset date"
+msgstr ""
+
+#: includes/Action/Lang.php:1059
+msgid "Quota usage"
+msgstr ""
+
+#: includes/Action/Lang.php:1060
+msgid "quota"
+msgstr ""
+
+#: includes/Action/Lang.php:1061
+msgid "Avg $<0> per order"
+msgstr ""
+
+#: includes/Action/Lang.php:1062
+msgid "month"
+msgstr ""
+
+#: includes/Action/Lang.php:1063
+msgid "Choose"
+msgstr ""
+
+#: includes/Action/Lang.php:1064
+msgid "Limited time offer specially for WooCommerce stores✨"
+msgstr ""
+
+#: includes/Action/Lang.php:1065
+msgid "Unlimited"
+msgstr ""
+
+#: includes/Action/Lang.php:1066
+msgid "Unlimited quota Avg $0.0000 per order"
+msgstr ""
+
+#: includes/Action/Lang.php:1067
+msgid "Free Upgrade Now 🥳"
+msgstr ""
+
+#: includes/Action/Lang.php:1068
+msgid "Does ParcelPanel charge based on order lookups?"
+msgstr ""
+
+#: includes/Action/Lang.php:1069
+msgid "No, ParcelPanel counts the quota based on the number of your orders synced to ParcelPanel, and provides unlimited order lookups."
+msgstr ""
+
+#: includes/Action/Lang.php:1070
+msgid "Can I change my plan in the middle of a billing cycle?"
+msgstr ""
+
+#: includes/Action/Lang.php:1071
+msgid "Yes, you can change your plan at any time based on your needs. If you want to change the plan, the remaining quotas of current plan will be added to the new one automatically."
+msgstr ""
+
+#: includes/Action/Lang.php:1072
+msgid "Why is ParcelPanel launching an unlimited plan? When will ParcelPanel charge?"
+msgstr ""
+
+#: includes/Action/Lang.php:1073
+msgid "We've provided service for over 120,000 Shopify and WooCommerce stores, but we are still pretty new to WooCommerce for now. We want to give more special offers for WooCommerce merchants."
+msgstr ""
+
+#: includes/Action/Lang.php:1074
+msgid "ParcelPanel will not charge for a short time. But please rest assured that if we decide to charge, we will definitely inform you in advance, and there will be no hidden charges."
+msgstr ""
+
+#: includes/Action/Lang.php:1076
+#: includes/views/account-page.php:16
+msgid "Downgrade to Starter Free plan"
+msgstr ""
+
+#: includes/Action/Lang.php:1077
+#: includes/Action/ShopOrder.php:40
+#: includes/views/account-page.php:17
+msgid "This can't be undone!"
+msgstr ""
+
+#: includes/Action/Lang.php:1078
+msgid "Downgrade"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:44
+msgid "Mark order as (optional)"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:46
+msgid "Add tracking"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:47
+msgid "Edit tracking"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:48
+msgid "Rename \"Completed\" to \"Shipped\""
+msgstr ""
+
+#: includes/Action/ShopOrder.php:49
+msgid "Revert \"Shipped\" to \"Completed\""
+msgstr ""
+
+#: includes/Action/ShopOrder.php:50
+msgid "Add"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:51
+msgid "Save"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:52
+msgid "Auto-matching"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:70
+msgid "Y-m-d"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:89
+msgid "Add tracking number"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:120
+msgid "Shipment %1$d"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:129
+msgid "Tracking order"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:136
+#: includes/Action/ShopOrder.php:151
+msgid "Shipped on %s"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:609
+#: includes/Action/ShopOrder.php:975
+msgid "Invalid parameters."
+msgstr ""
+
+#: includes/Action/ShopOrder.php:964
+#: includes/Action/ShopOrder.php:980
+msgid "Deleted successfully"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:1114
+msgid "Tracking data not found."
+msgstr ""
+
+#: includes/Action/ShopOrder.php:1129
+msgid "Unsupported operation."
+msgstr ""
+
+#: includes/Action/ShopOrder.php:1140
+msgid "Tracking number already exists!"
+msgstr ""
+
+#: includes/Action/ShopOrder.php:2080
+msgid "Add Tracking"
+msgstr ""
+
+#: includes/Action/TrackingNumber.php:155
+msgid "File is empty."
+msgstr ""
+
+#: includes/Action/Upload.php:25
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr ""
+
+#: includes/Action/Upload.php:29
+#: includes/Libs/Import/TrackingNumberCSVImporter.php:134
+msgid "Invalid file type. The importer supports CSV and TXT file formats."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Delivered.php:10
+msgid "ParcelPanel Delivered"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Delivered.php:11
+msgid "ParcelPanel Delivered emails are sent to customers when the shipment has been delivered."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Delivered.php:28
+msgid "A shipment from order {order_number} has been delivered"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Delivered.php:39
+msgid "Your order has been delivered"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Exception.php:10
+msgid "ParcelPanel Exception"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Exception.php:11
+msgid "ParcelPanel Exception emails are sent to customers when the shipment might have been sent back to the sender, damaged, or lost."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Exception.php:28
+msgid "A shipment from order {order_number} has a delivery exception"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Exception.php:39
+msgid "Your order has a delivery exception"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Failed_Attempt.php:10
+msgid "ParcelPanel Failed attempt"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Failed_Attempt.php:11
+msgid "ParcelPanel Failed attempt emails are sent to customers when the carrier attempt to deliver the shipment but failed."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Failed_Attempt.php:29
+msgid "A shipment from order {order_number} has a failed delivery attempt"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Failed_Attempt.php:40
+msgid "Your order has a failed delivery attempt"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_In_Transit.php:10
+msgid "ParcelPanel In transit"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_In_Transit.php:11
+msgid "ParcelPanel In transit emails are sent to customers when the shipment is on the way."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_In_Transit.php:29
+msgid "A shipment from order {order_number} is in transit"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Out_For_Delivery.php:10
+msgid "ParcelPanel Out for delivery"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Out_For_Delivery.php:11
+msgid "ParcelPanel Out for delivery emails are sent to customers when the shipment has arrived at the local point and is out for delivery."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Out_For_Delivery.php:29
+msgid "A shipment from order {order_number} is out for delivery"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Out_For_Delivery.php:40
+msgid "Your order is out for delivery"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Partial_Shipped_Order.php:10
+msgid "Partially Shipped order"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Partial_Shipped_Order.php:11
+msgid "Order partially shipped emails are sent to customers when their orders are marked partially shipped and usually indicate that their orders have been partially shipped."
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Partial_Shipped_Order.php:28
+msgid "Your {site_title} order is now partially shipped"
+msgstr ""
+
+#: includes/Emails/WC_Email_Customer_PP_Partial_Shipped_Order.php:39
+msgid "Your order is Partially Shipped"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:216
+msgid "Thanks for shopping with us."
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:226
+msgid "Tracking Information"
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: includes/Emails/WC_Email_Shipping_Notice.php:236
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:239
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:241
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:245
+msgid "Subject"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:253
+msgid "Email heading"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:261
+msgid "Additional content"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:262
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:264
+msgid "N/A"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:270
+msgid "Email type"
+msgstr ""
+
+#: includes/Emails/WC_Email_Shipping_Notice.php:272
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/Libs/Notice.php:281
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#. translators: %s: replace with shipped order count
+#: includes/ParcelPanel.php:532
+msgid "Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/ParcelPanel.php:551
+msgid "Change status to shipped"
+msgstr ""
+
+#. translators: %s: replace with Partially Shipped Count
+#: includes/ParcelPanel.php:568
+msgid "Partially Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: search order status label
+#: includes/ParcelPanel.php:630
+msgid "Change status to %s"
+msgstr ""
+
+#: includes/ParcelPanel.php:990
+#: includes/ParcelPanel.php:1005
+msgid "Home - ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:991
+msgid "ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:1001
+msgid "100% OFF Offer"
+msgstr ""
+
+#: includes/ParcelPanel.php:1006
+msgid "Home"
+msgstr ""
+
+#: includes/ParcelPanel.php:1011
+msgid "Tracking Page - ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:1012
+#: includes/views/tracking-page.php:17
+msgid "Tracking Page"
+msgstr ""
+
+#: includes/ParcelPanel.php:1017
+msgid "Shipments - ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:1023
+msgid "Settings - ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:1029
+msgid "Integration - ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:1035
+msgid "Account - ParcelPanel"
+msgstr ""
+
+#: includes/ParcelPanel.php:1072
+msgid "Docs"
+msgstr ""
+
+#: includes/ParcelPanel.php:1073
+msgid "Support"
+msgstr ""
+
+#: includes/ParcelPanel.php:1235
+msgid "%1$s Uploaded %2$s, %3$s tracking numbers, failed to upload %4$s,"
+msgstr ""
+
+#: includes/ParcelPanel.php:1236
+msgid "view details."
+msgstr ""
+
+#: includes/ParcelPanel.php:1442
+#: includes/ParcelPanel.php:1474
+#: includes/ParcelPanel.php:1488
+msgid "Failed to connect to ParcelPanel."
+msgstr ""
+
+#: includes/ParcelPanel.php:1523
+msgid "Upgrade failed."
+msgstr ""
+
+#: includes/ParcelPanel.php:1568
+msgid "Courier providers sync failed."
+msgstr ""
+
+#: includes/ParcelPanel.php:1597
+msgid "You are not allowed."
+msgstr ""
+
+#: includes/ParcelPanel.php:1607
+#: includes/ParcelPanel.php:1624
+msgid "Failed to connect."
+msgstr ""
+
+#: includes/ParcelPanel.php:1618
+msgid "Already bound."
+msgstr ""
+
+#: includes/ParcelPanel.php:1634
+msgid "Connected successfully"
+msgstr ""
+
+#: includes/ParcelPanel.php:1857
+msgid "It is a temporary deactivation, I am just debugging an issue."
+msgstr ""
+
+#: includes/ParcelPanel.php:1864
+msgid "I no longer need the plugin."
+msgstr ""
+
+#: includes/ParcelPanel.php:1866
+msgid "Could you tell us a bit more?"
+msgstr ""
+
+#: includes/ParcelPanel.php:1871
+msgid "I couldn't get the plugin to work."
+msgstr ""
+
+#: includes/ParcelPanel.php:1873
+msgid "Would you like us to assist you?"
+msgstr ""
+
+#: includes/ParcelPanel.php:1878
+msgid "It didn't work as expected."
+msgstr ""
+
+#: includes/ParcelPanel.php:1880
+msgid "What did you expect?"
+msgstr ""
+
+#: includes/ParcelPanel.php:1885
+msgid "It's missing a specific feature."
+msgstr ""
+
+#: includes/ParcelPanel.php:1887
+msgid "What specific feature?"
+msgstr ""
+
+#: includes/ParcelPanel.php:1892
+msgid "I found a better plugin."
+msgstr ""
+
+#: includes/ParcelPanel.php:1894
+msgid "Which plugin?"
+msgstr ""
+
+#: includes/ParcelPanel.php:1899
+msgid "Other"
+msgstr ""
+
+#: includes/ParcelPanel.php:1901
+msgid "Could you tell us more to let us know how we can improve."
+msgstr ""
+
+#: includes/ParcelPanel.php:1930
+msgid "Quick feedback"
+msgstr ""
+
+#: includes/ParcelPanel.php:1942
+msgid "May we have a little info about why you are deactivating to see how we can improve?"
+msgstr ""
+
+#: includes/ParcelPanel.php:1957
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: includes/ParcelPanel.php:1959
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/ParcelPanel.php:2127
+msgid "Required fields cannot be empty."
+msgstr ""
+
+#: includes/views/account-page.php:20
+msgid "Free upgrade completed. Congratulations!! 🎉"
+msgstr ""
+
+#: includes/views/account-page.php:22
+msgid "Would you mind letting us know what you think about ParcelPanel"
+msgstr ""
+
+#: includes/views/account-page.php:46
+msgid "Current plan info"
+msgstr ""
+
+#: includes/views/account-page.php:52
+msgid "You are on the ParcelPanel %1$s plan and have %2$s cycle."
+msgstr ""
+
+#: includes/views/account-page.php:54
+msgid "You are on the ParcelPanel %1$s plan and have %2$s cycle. Next cycle will reset on %3$s."
+msgstr ""
+
+#: includes/views/account-page.php:58
+msgid "The ParcelPanel server is busy. Please try again later!"
+msgstr ""
+
+#: includes/views/account-page.php:83
+#: includes/views/account-page.php:103
+msgid "Note: Remaining means you have %1$s available quota."
+msgstr ""
+
+#: includes/views/account-page.php:112
+msgid "Plan"
+msgstr ""
+
+#: includes/views/account-page.php:113
+msgid "If you want to change your plan, the remaining quota of current plan will be added to the new plan."
+msgstr ""
+
+#: includes/views/account-page.php:114
+msgid "Note: ParcelPanel counts the quota based on the number of your orders synced to ParcelPanel and offers unlimited order lookups."
+msgstr ""
+
+#: includes/views/common/header.php:11
+msgid "ParcelPanel logo"
+msgstr ""
+
+#: includes/views/common/header.php:19
+msgid "Get help"
+msgstr ""
+
+#: includes/views/common/header.php:32
+msgid "Live chat Support"
+msgstr ""
+
+#: includes/views/home-page.php:22
+msgid "Welcome to Parcel Panel"
+msgstr ""
+
+#: includes/views/home-page.php:29
+msgid "Your branded tracking page is ready, the URL is %1$s, add it to your store menus so your customers can track orders there."
+msgstr ""
+
+#: includes/views/home-page.php:32
+msgid "Don’t know how to do this? Please follow %1$sthis instruction%2$s."
+msgstr ""
+
+#: includes/views/home-page.php:36
+#: includes/views/integration-page.php:113
+msgid "Contact us."
+msgstr ""
+
+#: includes/views/home-page.php:45
+msgid "Use mapping feature to bulk import tracking number with a CSV file, or manually add one by one in the Edit order page. %1$sLearn more%2$s."
+msgstr ""
+
+#: includes/views/home-page.php:59
+msgid "Support Aliexpress Standard Shipping, Yunexpress, CJ packet &amp; ePacket(China EMS, China Post), and all commonly used couriers for dropshipping merchants."
+msgstr ""
+
+#: includes/views/home-page.php:60
+msgid "Hide all Chinese origin easily, brings your customers an all-around brand shopping experience. %1$sLearn more%2$s."
+msgstr ""
+
+#: includes/views/home-page.php:64
+msgid "1-click dropshipping mode"
+msgstr ""
+
+#: includes/views/integration-page.php:28
+msgid "AliExpress Dropshipping with Ali2Woo Lite"
+msgstr ""
+
+#: includes/views/integration-page.php:29
+msgid "Looking for AliExpress Dropshipping plugin for WordPress and WooCommerce stores? Ali2Woo is the right choice! Import any products with reviews from Al …"
+msgstr ""
+
+#: includes/views/integration-page.php:30
+msgid "How integration with AliExpress Dropshipping with Ali2Woo Lite works?"
+msgstr ""
+
+#: includes/views/integration-page.php:40
+msgid "ALD – Dropshipping and Fulfillment for AliExpress and WooCommerce"
+msgstr ""
+
+#: includes/views/integration-page.php:41
+msgid "ALD – Dropshipping and Fulfillment for AliExpress and WooCommerce allows shop owners to import products from AliExpress to their own WooCommerce store …"
+msgstr ""
+
+#: includes/views/integration-page.php:42
+msgid "How integration with ALD – Dropshipping and Fulfillment for AliExpress and WooCommerce works?"
+msgstr ""
+
+#: includes/views/integration-page.php:50
+msgid "DSers Dropshipping Solution: Find products on AliExpress for WooCommerce"
+msgstr ""
+
+#: includes/views/integration-page.php:51
+msgid "DSers is AliExpress official dropshipping partner. It's the best way to place 100s of orders at once to AliExpress, find products, and more!"
+msgstr ""
+
+#: includes/views/integration-page.php:52
+msgid "How integration with DSers Dropshipping Solution: Find products on AliExpress for WooCommerce works?"
+msgstr ""
+
+#: includes/views/integration-page.php:59
+msgid "Learn more."
+msgstr ""
+
+#: includes/views/integration-page.php:66
+#: includes/views/integration-page.php:76
+msgid "Sequential Order Number for WooCommerce"
+msgstr ""
+
+#: includes/views/integration-page.php:67
+msgid "Sequential order number for WooCommerce is the best plugin to generate sequential or custom order numbers for existing and new WooCommerce orders."
+msgstr ""
+
+#: includes/views/integration-page.php:77
+msgid "This plugin extends WooCommerce by setting sequential order numbers for new orders."
+msgstr ""
+
+#: includes/views/integration-page.php:86
+msgid "Custom Order Numbers for WooCommerce"
+msgstr ""
+
+#: includes/views/integration-page.php:87
+msgid "Custom order numbers for WooCommerce."
+msgstr ""
+
+#: includes/views/integration-page.php:96
+msgid "Booster for WooCommerce"
+msgstr ""
+
+#: includes/views/integration-page.php:97
+msgid "One plugin to replace them all. Upgrade your WooCommerce website with the ultimate customization bundle, with 110+ features in one single WordPress Wo …"
+msgstr ""
+
+#: includes/views/notices/admin-plugins-feedback.php:61
+#: includes/views/notices/feedback-admin.php:56
+msgid "We want to provide the best experience for you"
+msgstr ""
+
+#: includes/views/notices/admin-plugins-feedback.php:62
+msgid "Hi there! Your feedback means a lot to us! Take a minute to share your experience with %1$sParcelPanel Order Tracking for WooCommerce%2$s will inspire us to keep going."
+msgstr ""
+
+#: includes/views/notices/admin-plugins-feedback.php:66
+#: includes/views/notices/free-sync-orders-admin.php:11
+#: includes/views/notices/free-upgrade-admin.php:10
+#: includes/views/notices/nps-banner-admin.php:18
+#: includes/views/notices/question-banner-admin.php:10
+#: includes/views/notices/remove-pp-branding-admin.php:10
+msgid "Dismiss this notice."
+msgstr ""
+
+#: includes/views/notices/feedback-admin.php:57
+msgid "Your feedback means a lot to us! Take a minute to leave your review."
+msgstr ""
+
+#: includes/views/notices/free-sync-orders-admin.php:10
+msgid "This will help you know how ParcelPanel performs and provide your old customers a seamless order tracking experience."
+msgstr ""
+
+#: includes/views/notices/free-upgrade-admin.php:7
+msgid "Special offer - Contact us to Free upgrade 😘"
+msgstr ""
+
+#: includes/views/notices/free-upgrade-admin.php:8
+msgid "We've so far provided service to over 120,000 Shopify & WooCommerce stores. This is our way of giving back (20 → Unlimited free quota) 🙏"
+msgstr ""
+
+#: includes/views/notices/free-upgrade-admin.php:9
+msgid "Free upgrade"
+msgstr ""
+
+#: includes/views/notices/nps-banner-admin.php:10
+msgid "We value your opinion! It is highly appreciated if you could take %1$s10 seconds%2$s to rate your experience with us by participating in our brief Net Promoter Score (NPS) survey."
+msgstr ""
+
+#: includes/views/notices/question-banner-admin.php:7
+msgid "We value your opinion - Requirements Feedback Research 🙌"
+msgstr ""
+
+#: includes/views/notices/question-banner-admin.php:8
+msgid "ParcelPanel Order Tracking for WooCommerce invites you to participate in user research (within 8 questions) to gain more value. Thanks in advance!! 🤩"
+msgstr ""
+
+#: includes/views/notices/remove-pp-branding-admin.php:7
+msgid "😘 Remove ParcelPanel branding for Free"
+msgstr ""
+
+#: includes/views/settings-page.php:226
+msgid "Search courier"
+msgstr ""
+
+#: includes/views/settings-page.php:233
+msgid "Showing %1$s of %2$s couriers"
+msgstr ""
+
+#: includes/views/settings-page.php:236
+#: includes/views/settings-page.php:267
+msgid "Showing %1$s couriers"
+msgstr ""
+
+#: includes/views/settings-page.php:239
+#: includes/views/settings-page.php:270
+msgid "%1$s selected"
+msgstr ""
+
+#: includes/views/settings-page.php:243
+#: includes/views/settings-page.php:257
+msgid "Enable"
+msgstr ""
+
+#: includes/views/settings-page.php:274
+msgid "Disable"
+msgstr ""
+
+#: includes/views/shipments-page.php:51
+msgid "shipments data will be exported a CSV table,"
+msgstr ""
+
+#: includes/views/shipments-page.php:53
+msgid "Learn more about %1$sCSV table headers%2$s."
+msgstr ""
+
+#: includes/views/tracking-page.php:28
+msgid "Custom status"
+msgstr ""
+
+#: includes/views/tracking-page.php:31
+msgid "Custom Status Name"
+msgstr ""
+
+#: includes/views/tracking-page.php:35
+msgid "e.g. We are currently packing your order"
+msgstr ""
+
+#: includes/views/tracking-page.php:38
+msgid "e.g. 1"
+msgstr ""
+
+#: includes/views/tracking-page.php:45
+msgid "Display options"
+msgstr ""
+
+#: includes/views/tracking-page.php:82
+msgid "UI styles"
+msgstr ""
+
+#: includes/views/tracking-page.php:105
+msgid "Carrier details"
+msgstr ""
+
+#: includes/views/tracking-page.php:108
+msgid "Show carrier name and logo on your tracking page"
+msgstr ""
+
+#: includes/views/tracking-page.php:118
+msgid "Show tracking number on your tracking page"
+msgstr ""
+
+#: includes/views/tracking-page.php:126
+msgid "Package contents details"
+msgstr ""
+
+#: includes/views/tracking-page.php:129
+msgid "Show the product and quantity contents of the package"
+msgstr ""
+
+#: includes/views/tracking-page.php:136
+msgid "Tracking detailed info"
+msgstr ""
+
+#: includes/views/tracking-page.php:139
+msgid "Show tracking detailed info on your tracking page"
+msgstr ""
+
+#: includes/views/tracking-page.php:150
+msgid "Show widget"
+msgstr ""
+
+#: includes/views/tracking-page.php:161
+msgid "Show map on your tracking page when the address is correctly recognized"
+msgstr ""
+
+#: includes/views/tracking-page.php:231
+msgid "Tracking page translations"
+msgstr ""
+
+#: includes/views/tracking-page.php:256
+msgid "Add custom status(up to 3) with time interval and description, to timely inform customers about the progress of their orders before you fulfill them."
+msgstr ""
+
+#: includes/views/tracking-page.php:256
+#: includes/views/tracking-page.php:365
+msgid "Learn more"
+msgstr ""
+
+#: includes/views/tracking-page.php:260
+msgid "Add custom status"
+msgstr ""
+
+#: includes/views/tracking-page.php:365
+msgid "Set an estimated time period that will be displayed on your tracking page, to show your customers when they will receive their orders."
+msgstr ""
+
+#: includes/views/tracking-page.php:388
+msgid "Shipping to:"
+msgstr ""
+
+#: includes/views/tracking-page.php:426
+msgid "%1$sAdd category%2$s in your WordPress Products section to recommend."
+msgstr ""
+
+#: includes/views/tracking-page.php:428
+msgid "By default the recommendations are based on the customer’s order items, you can also select a category to recommend."
+msgstr ""
+
+#: includes/views/tracking-page.php:467
+msgid "Additional text setting"
+msgstr ""
+
+#: includes/views/tracking-page.php:471
+msgid "Use these fields to add additional content above and below the order lookup section."
+msgstr ""
+
+#: includes/views/tracking-page.php:474
+msgid "Text above"
+msgstr ""
+
+#: includes/views/tracking-page.php:475
+msgid "Text below"
+msgstr ""
+
+#: includes/views/tracking-page.php:489
+msgid "date_format"
+msgstr ""
+
+#: includes/views/tracking-page.php:497
+msgid "time_format"
+msgstr ""
+
+#: includes/views/tracking-page.php:509
+msgid "Manually translate tracking detailed info"
+msgstr ""
+
+#: includes/views/tracking-page.php:552
+msgid "Custom CSS and HTML"
+msgstr ""
+
+#: includes/views/tracking-page.php:558
+msgid "View the CSS codes here you used to do the custom change of your tracking page, if you would like to change codes, please %1$scontact us%2$s or follow %3$sthis instruction%4$s."
+msgstr ""
